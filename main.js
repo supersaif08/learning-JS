@@ -39,5 +39,42 @@ const job;//constant variable can't be empty
 // var is same as let variable but not recommended to use
 var first_name="md";
 first_name="saif";
-console.log(first_name)*/
+console.log(first_name)
 
+// operators
+const now_year=2024;
+const age_saif=now_year-2003;
+const age_sufiyan=now_year-2006;
+console.log(age_saif,age_sufiyan);
+
+console.log(age_saif*2 , age_saif/2 , age_saif**3 )//**means "to the power[age_saif to the power 3"
+
+// "+"to joints the strings
+const first_name="Md ";
+const last_name="saif";
+console.log(first_name+last_name);
+
+// assignment operatop
+ let x=10+5;//x=15
+ x += 10;//x=x + 10 =25
+ x *=4;// x= x*4
+ x++ //x= x+1
+ x-- //x= x-1
+ console.log(x);
+
+//  comperison operators
+console.log(age_saif>age_sufiyan);//true
+console.log(age_saif>=18);//true
+console.log(age_saif<=18);//false
+console.log(age_saif<age_sufiyan)//false
+
+//operators's precedence
+console.log(age_saif - 12 > age_sufiyan-5);//js will first perform the "-"operation and 
+// then the comperation operation [ go to MDN web sit for more] 
+
+let a,y;
+a=y=20-10-5; //a=5 and y=5
+console.log(a,y);
+
+const average_age=(age_saif+age_sufiyan)/2;
+console.log(age_saif,age_sufiyan ,average_age);*/
