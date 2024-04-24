@@ -77,4 +77,16 @@ a=y=20-10-5; //a=5 and y=5
 console.log(a,y);
 
 const average_age=(age_saif+age_sufiyan)/2;
-console.log(age_saif,age_sufiyan ,average_age);*/
+console.log(age_saif,age_sufiyan ,average_age);
+
+// first challange
+// to calculate BMI[BMI= mass/(height*height)]
+const massMark =78;
+const heightMmark =1.69 ;
+const massJohn =92;
+const heightJohn=1.95;
+const BMImark = massMark/(heightMmark*heightMmark);
+const BMIjohn = massJohn/(heightJohn*heightJohn);
+console.log(BMIjohn,BMImark);
+console.log (BMIjohn>BMImark);//false
+console.log (BMIjohn<BMImark);//true*/
