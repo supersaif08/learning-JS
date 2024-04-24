@@ -89,7 +89,7 @@ const BMImark = massMark/(heightMmark*heightMmark);
 const BMIjohn = massJohn/(heightJohn*heightJohn);
 console.log(BMIjohn,BMImark);
 console.log (BMIjohn>BMImark);//false
-console.log (BMIjohn<BMImark);//true*/
+console.log (BMIjohn<BMImark);//true
 
 //strings anad template literals//
 
@@ -110,4 +110,45 @@ console.log(`just a normal string....`);
 //it can b also be used to create multi line string
 console.log(`string 
 multiline
-program`)
+program`);
+
+//taking decision [if/else statement]//
+
+const age=15;
+const oldEnough=age>=18;
+
+if(oldEnough){
+    console.log(`congrass you can get your driving licence 🫡`);
+}else{
+    console.log(`sorry , but you can't get the licence at current age`);
+}
+
+//other way to write
+const secondAge=15;
+if(secondAge>=18){
+    console.log(`congrass you can get your driving licence 🫡`);
+}else{
+    const need_to_wait =18-secondAge;
+    console.log(`you still need to wait for ${need_to_wait} years`)
+}
+
+//second challenge
+
+const massMark =78;
+const heightMmark =1.69 ;
+const massJohn =92;
+const heightJohn=1.95;
+const BMImark = massMark/(heightMmark*heightMmark);
+const BMIjohn = massJohn/(heightJohn*heightJohn);
+
+if (BMImark>BMIjohn){
+    console.log(`mark BMI is higher than jhon`);
+}else{
+    console.log(`john BMI is greater than marks`);
+}
+if(BMImark>BMIjohn){
+    console.log(`mark BMI ${BMImark} is grater than john's BMI ${BMIjohn}`)
+}else{
+    console.log(`john's BMI ${BMIjohn} is grater than mark's BMI ${BMImark}`)
+}
+*/
