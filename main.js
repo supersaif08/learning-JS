@@ -90,3 +90,24 @@ const BMIjohn = massJohn/(heightJohn*heightJohn);
 console.log(BMIjohn,BMImark);
 console.log (BMIjohn>BMImark);//false
 console.log (BMIjohn<BMImark);//true*/
+
+//strings anad template literals//
+
+const fullName="MD saif ali";
+const job="student";
+let currnt_year=2024;
+const birth_year=2003;
+const saif="I'm "+fullName+ " a " +(currnt_year - birth_year) + " year old "+job;
+console.log(saif);
+
+// templet literals [ use a back tick which is above the tab key ``]
+//use doller sign "$"
+const saifNew=`I'm ${fullName} a ${(currnt_year-birth_year)} year student`;
+console.log(saifNew);
+
+console.log(`just a normal string....`);
+
+//it can b also be used to create multi line string
+console.log(`string 
+multiline
+program`)
