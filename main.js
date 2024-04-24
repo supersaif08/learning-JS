@@ -151,4 +151,30 @@ if(BMImark>BMIjohn){
 }else{
     console.log(`john's BMI ${BMIjohn} is grater than mark's BMI ${BMImark}`)
 }
+
+
+//type convertion and corecion//
+
+const inputYear='2003';//string
+console.log(inputYear+7);//it takes the number 7 as a string value and just palce after 2003
+console.log(Number(inputYear)+7);//the string "2003" is converted to a number and added with 7 
+const name = 'saif';
+console.log(Number(name));// the letters cant be converted to number so the o/p will be "NaN"
+const age=21;
+console.log (String(age));//number can be converted to a string
+
+//type corecion[auto converction by JS]
+
+console.log('I am ' + 21 + 'years old !!');//the number 21 is auto converted to string
+console.log('21'-'20'-5);//the string is converted to number and the output is -4
+console.log('21'+30-'10');//the 21 and 30 is converted to string anfd then sub by 10 and the o/p is 2120
+console.log('10'/'2');//converted to number, o/p is 5
+
+let x='1'+1;//1 and one is convered to string which is 11
+x=x-1;//x is converted to number and sub with 1 which is 10
+console.log(x)
+
+let y=2+3+4+'5';//2,3,4 are the number and added gives 9 and 5 is a string addded with 9
+// gives 95
+console.log(y);
 */
