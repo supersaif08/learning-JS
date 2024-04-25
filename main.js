@@ -207,5 +207,26 @@ if(height){
 }else{
     console.log(`height is undefined`);
 }
-*/
 
+//equality operators == vs ===//
+//always try to use strict equal sign [===]
+ const age=18;
+ if (age===18){//the tripal equal is used for a strict conversion where both the compared valu should be same
+    console.log(`you are good to go`);
+ }
+ if (age=='18'){//the dubble equals is used for a lose comparaion where one can be a number and other can be a string 
+    //the string will be converted to a number
+    console.log(`you are good to go`);
+ }
+
+
+const first_name= Number(prompt("what is your favourite number :)"))//gives a pop-up window to enter the name
+console.log(first_name);//name that is stored in first_name will be displayed
+alert("hello there!!!");//just for fun
+if (first_name>=0){
+    console.log(`${first_name} is a greate number`);
+}
+
+if( first_name != 0){
+    console.log(`enter the number starting from 0`);
+}*/
