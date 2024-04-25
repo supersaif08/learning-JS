@@ -177,4 +177,35 @@ console.log(x)
 let y=2+3+4+'5';//2,3,4 are the number and added gives 9 and 5 is a string addded with 9
 // gives 95
 console.log(y);
+
+//truthy and falsy values//
+//any value that can't be converted to boolean value is called falsy value
+//5 falsy values :- 0,'',undefined,nul,NaN;
+console.log(Boolean(0));//falsy
+console.log(Boolean());//falsy
+console.log(Boolean(undefined));//falsy
+console.log(Boolean());//falsy
+console.log(Boolean("saif"));//trythy
+
+const money = 0;//zero is a falsy value so the else statement will get exicuted
+if(money){
+    console.log(`don't spend all your money`);
+}else{
+    console.log(`you need to get a job`);
+}
+
+const money2 = 100;//100 is a true value so the if statement wikk get exicuted
+if(money2){
+    console.log(`don't spend all your money`);
+}else{
+    console.log(`you need to get a job`);
+}
+ 
+let height;//as height is undefined so the else statement is executed
+if(height){
+    console.log(`height is defined`);
+}else{
+    console.log(`height is undefined`);
+}
 */
+
