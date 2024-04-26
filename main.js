@@ -229,7 +229,7 @@ if (first_name>=0){
 
 if( first_name != 0){
     console.log(`enter the number starting from 0`);
-}*/
+}
 
 //boolean logic//
 // AND,OR & NOT OPERATORS//
@@ -255,19 +255,19 @@ if(can_drive1 || age1){//if any one conduction is true answer is true
 const age_3=true;
 console.log(!age_3);//true is inverted to faalse
 
-/*CHALLENGE #3
-There are two gymnastics teams: Dolphins and Koalas. They compete against each other 3 times.
- The winner with the highest average score wins a trophy!
+// CHALLENGE #3
+// There are two gymnastics teams: Dolphins and Koalas. They compete against each other 3 times.
+//  The winner with the highest average score wins a trophy!
 
-Your tasks:
-1. Calculate the average score for each team, using the test data included below. 
-The average score for Dolphins should be assigned to the scoreDolphins variable,
- and the average score of Koalas should be assigned to the scoreKoalas variable.
-2. Compare the team's average scores to determine the winner of the competition, 
-and print to the console:
-"Dolphins win the trophy" if Dolphins win, or
-"Koalas win the trophy" if Koalas win, or
-"Both win the trophy" if their average scores are equal.*/
+// Your tasks:
+// 1. Calculate the average score for each team, using the test data included below. 
+// The average score for Dolphins should be assigned to the scoreDolphins variable,
+//  and the average score of Koalas should be assigned to the scoreKoalas variable.
+// 2. Compare the team's average scores to determine the winner of the competition, 
+// and print to the console:
+// "Dolphins win the trophy" if Dolphins win, or
+// "Koalas win the trophy" if Koalas win, or
+// "Both win the trophy" if their average scores are equal.
 
 const scoreDolphins =(96+108+89)/3;
 const scoreKoalas=(88+91+110)/3;
@@ -281,3 +281,39 @@ if(scoreDolphins>scoreKoalas){
 }
 
 
+//SWITCH STATEMENT//
+
+const day='thursday'
+switch(day){
+    case 'monday':
+        console.log('plan course');
+        console.log('its not monday');
+        break;
+    case 'tuesday':
+        console.log('only one class');
+        break;
+    case 'wednesday':
+    case 'thursday':
+        console.log('full day collage !!:/')
+        break
+    case 'friday':
+        console.log('take bath :))');
+        break;
+    case 'suturday':
+        console.log('hollyday');
+        break;
+    default:
+        console.log('go to hell :(');
+}
+
+if(day === 'monday'){
+    console.log('its monday');
+}else if (day==='tuesday'){
+    console.log('its teuesday')
+}else if(day === 'wednesday' || day==='thursday'){
+    console.log ('go to collage');
+}else if(day=== 'friday'){
+    console.log('its friday');
+}else{
+    console.log('its suturday');
+}*/
