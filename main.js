@@ -349,3 +349,6 @@ console.log(`The bill was ${bill} and the tip was ${tip} and the total bill is $
 
 //JAVA SCRIPT RELEASES : ES5.ES6+ AND ESNEXT//
 //go therough the history of js :)
+
+//strict mode//
+'use strict'//need to writr in the starting of js
