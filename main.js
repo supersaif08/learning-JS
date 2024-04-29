@@ -316,7 +316,7 @@ if(day === 'monday'){
     console.log('its friday');
 }else{
     console.log('its suturday');
-}*/
+}
 
 //THE CONDUCTIONAL (TERNARY)OPERATOR
 //it is same as a if else but writen in a single line
@@ -345,3 +345,7 @@ const bill =5;
 console.log(`tip is ${(bill>=50 && bill<=300)?'tip is 15%':'tip is 12%'}`);
 const tip=(bill>=50 && bill<=300)?(0.15*bill):(0.12*bill);
 console.log(`The bill was ${bill} and the tip was ${tip} and the total bill is ${bill+tip}`);
+*/
+
+//JAVA SCRIPT RELEASES : ES5.ES6+ AND ESNEXT//
+//go therough the history of js :)
