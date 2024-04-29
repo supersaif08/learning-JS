@@ -351,4 +351,22 @@ console.log(`The bill was ${bill} and the tip was ${tip} and the total bill is $
 //go therough the history of js :)
 
 //strict mode//
-'use strict'//need to writr in the starting of js
+'use strict'//need to writr in the starting of js 
+//FUNCTIONS//
+function logger(){
+    console.log (`my name is saif ali`)
+}
+//calling the function 
+logger();
+logger();
+
+function fruitProcesser(apples , oranges ){
+    const juice = `juice with ${apples} apples and with ${oranges} oranges`;
+    return juice;
+}
+
+const yourJuice =fruitProcesser(5,0);
+console.log(yourJuice);
+
+const second_juice = fruitProcesser(0,10);
+console.log(second_juice);
