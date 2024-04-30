@@ -388,6 +388,18 @@ const year_until_retirement = (birthYear,firstname )=>{
     return `${firstname} is going to retire in ${retirement} years`;
 }
 console.log(year_until_retirement(2003,'saif ali'));
-*/
 
-//FUNCTION CALLNG OTHER FUNCTIONS
+
+//FUNCTION CALLNG OTHER FUNCTIONS//
+const fruitPieces = function(fruit){
+    return fruit*4;
+}
+
+function fruitProcesser(apples , oranges ){
+    const applePieces=fruitPieces(apples);
+    const orangePieces=fruitPieces(oranges);
+    const juice = `juice with ${applePieces} apples and with ${orangePieces} oranges`;
+    return juice;
+}
+console.log(fruitProcesser(2,3));
+*/
