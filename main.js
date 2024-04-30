@@ -1,5 +1,5 @@
 // console.log("hello this is my first line in js code!!")
-
+'use strict'
 // data types
 // bollean values
 /*let my_name=true;
@@ -345,13 +345,14 @@ const bill =5;
 console.log(`tip is ${(bill>=50 && bill<=300)?'tip is 15%':'tip is 12%'}`);
 const tip=(bill>=50 && bill<=300)?(0.15*bill):(0.12*bill);
 console.log(`The bill was ${bill} and the tip was ${tip} and the total bill is ${bill+tip}`);
-*/
+
 
 //JAVA SCRIPT RELEASES : ES5.ES6+ AND ESNEXT//
 //go therough the history of js :)
 
 //strict mode//
 'use strict'//need to writr in the starting of js 
+
 //FUNCTIONS//
 function logger(){
     console.log (`my name is saif ali`)
@@ -370,3 +371,23 @@ console.log(yourJuice);
 
 const second_juice = fruitProcesser(0,10);
 console.log(second_juice);
+
+//ARROW FUNCTIONS//
+//normal function//
+const calcAge2= function (birthYear){
+    return 2024-birthYear
+}
+//arrow function//
+const calcAge3 = birthYear=>2024-birthYear;
+const age3 =calcAge3(2003);
+console.log(age3);
+////////////////////////
+const year_until_retirement = (birthYear,firstname )=>{
+    const age = 2024 - birthYear;
+    const retirement=65-age;
+    return `${firstname} is going to retire in ${retirement} years`;
+}
+console.log(year_until_retirement(2003,'saif ali'));
+*/
+
+//FUNCTION CALLNG OTHER FUNCTIONS
