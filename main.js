@@ -488,4 +488,29 @@ console.log(bills);
 console.log(tips);
 console.log(totals);
 */
+//OBJECTS//
 
+const saif ={
+    name:'saif',
+    lastname:'ali',
+    age:21,
+    friends:['saif','aziz','khadeer'],
+    location:'road',
+    instagram:'super_saif_08'
+}
+console.log(saif);
+console.log(saif.lastname)
+///DOT VS BRACKET///
+
+const userEnter=prompt(`search age!!!`)
+console.log(saif[userEnter]);
+
+if (saif[userEnter]){
+    console.log(saif[userEnter])
+}else{
+    console.log('wrong entery')
+}
+////////////////////////////////////
+// saif.location='road';
+// saif['instagram']='super_saif_08';
+console.log (saif);
