@@ -425,3 +425,32 @@ scoreDolphins=calcAverage(85,54,41);
 scoreKoalas=calcAverage(23,34,27);
 checkWinner(scoreDolphins,scoreKoalas);
 */
+//ARRAYS//
+const friends = ['saif ','sameer','aziz'];//first way to write array
+console.log (friends);//display the array
+console.log(friends.length);//check thee length of an array
+
+const yearss= new Array(100,200,300,400);//second way to write an array 
+console.log(yearss);
+console.log(yearss[0]);//to access the element of an array 
+console.log(yearss.length);//to check the length of an array
+console.log(yearss[yearss.length-1]);//to accesss the last value of array
+
+yearss[2]=500;//acces the 2nd element and change it to 500
+console.log(yearss);
+
+const saif =['saif','student',2024-2003];//arrays can contain any values
+console.log (saif);
+//////////////////////////////////////////////////
+const calcAge= function(birth_year){
+    return 2024-birth_year;
+}
+const years =[2003,2004,2005,2006,2007];
+
+const age1=calcAge(years[0]);
+const age2=calcAge(years[2]);
+const age3=calcAge(years[1]);
+console.log(age1,age2,age3);
+
+const ages =[calcAge(years[1]),calcAge(years[2]),calcAge(years[0])];
+console.log(ages);//new array of the resulted ages
