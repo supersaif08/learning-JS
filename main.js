@@ -424,7 +424,7 @@ checkWinner(scoreDolphins,scoreKoalas);
 scoreDolphins=calcAverage(85,54,41);
 scoreKoalas=calcAverage(23,34,27);
 checkWinner(scoreDolphins,scoreKoalas);
-*/
+
 //ARRAYS//
 const friends = ['saif ','sameer','aziz'];//first way to write array
 console.log (friends);//display the array
@@ -454,3 +454,20 @@ console.log(age1,age2,age3);
 
 const ages =[calcAge(years[1]),calcAge(years[2]),calcAge(years[0])];
 console.log(ages);//new array of the resulted ages
+
+//BASIC ARRAY OPERATIONS//
+const friends = ['saif ','sameer','aziz'];
+//add elements//
+friends.push('khadeer');//push wull add the element in the end of the array
+console.log(friends);
+
+friends.unshift('sahil');//unshift will add the element in the start of the array
+console.log(friends);
+
+//Remove the element from the array//
+friends.pop();//pop remove the last element from the array
+console.log(friends);
+
+friends.shift();//shift removes the first element from the element
+console.log(friends);
+*/
