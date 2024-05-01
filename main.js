@@ -402,4 +402,26 @@ function fruitProcesser(apples , oranges ){
     return juice;
 }
 console.log(fruitProcesser(2,3));
+
+
+////CHALLENGE//
+const calcAverage = (a,b,c)=> (a+b+c)/3;
+
+let scoreDolphins=calcAverage(44,23,71);
+let scoreKoalas = calcAverage(65,54,49);
+
+const checkWinner = function(avgDolphines , avgKoalas){
+    if((avgDolphines>= 2* avgKoalas)){
+        console.log(`dolphins win ${avgDolphines}`)
+    }else if(avgKoalas>= 2* avgDolphines){
+        console.log(`koalas wind at score of ${avgKoalas}`)
+    }else{
+        console.log(`no one win`)
+    }
+}
+
+checkWinner(scoreDolphins,scoreKoalas);
+scoreDolphins=calcAverage(85,54,41);
+scoreKoalas=calcAverage(23,34,27);
+checkWinner(scoreDolphins,scoreKoalas);
 */
